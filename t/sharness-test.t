@@ -31,7 +31,7 @@ test_expect_success "Paths leading to CWD is shallow enough" '
 
 test_expect_success "Parent directory name is qualified" '
     pushd $pth &&
-    ./t3 &&
+    ./t3 && 
     popd
 '
 
