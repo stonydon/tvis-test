@@ -1,4 +1,6 @@
-CC     := clang
+ifndef CC 
+CC := clang
+endif 
 CFLAGS := -g -O0 -Wall
 TARGETS := t1 t2 t3 t4 
 
